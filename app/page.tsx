@@ -5,12 +5,12 @@ import RetroGrid from "@/components/magicui/retro-grid";
 import MarqueeDemo from "@/components/marqueefilled";
 import ShimmerButton from "@/components/magicui/shimmer-button";
 import TextRevealByWord from "@/components/magicui/text-reveal";
-import { IconCloudDemo } from "@/components/CloudDemo";
 import { MySkills } from "@/components/my-skills";
-
+import Portfolio from "@/components/Portfolio";
+import Certif from "@/components/Certif";
 export default function Home() {
   const handleButtonClick = () => {
-    const marqueeSection = document.getElementById("marquee");
+    const marqueeSection = document.getElementById("skills");
     if (marqueeSection) {
       marqueeSection.scrollIntoView({ behavior: "smooth" });
     }
@@ -52,36 +52,16 @@ export default function Home() {
         </div>
 
           </div>
-        <div id="marquee" className="relative flex justify-center items-center">
-          <MarqueeDemo />
-        </div>
+          <div id="skills">
+          <MySkills />
+          <Certif />
+          </div>
+    <div>
+      <Portfolio/>
 
-        <div className="flex flex-col w-full">
-        <div className="mb-8 md:mb-10 lg:mb-12">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">My Skills</h2>
-        </div>
-        <div className="flex flex-row">
-          
-      <div className="w-1/2">
-     
-     <MySkills/>
-     
-        
-      </div>
-      <div className="w-1/2 flex justify-center items-center">
-        <IconCloudDemo />
-      </div>
-      {/* <div className="w-1/3">
-     
-     <MySkills/>
-     
-        
-      </div> */}
-      </div>
     </div>
-        <div className="">
-          <h1>Certif</h1>
-          {/* <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="4bd254d8-ad08-423c-b28c-25fbeea86c41" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script> */}
+    <div className="relative flex justify-center items-center">
+          <MarqueeDemo />
         </div>
 
         <div className="flex justify-center items-center mt-8">
