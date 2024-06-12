@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <main className="">
       <div className="flex min-h-screen flex-col">
-        <RetroGrid />
+        <RetroGrid /> 
 
         <div className="flex flex-row p-16">
           <div className="flex flex-col w-1/2 relative items-center justify-center">
