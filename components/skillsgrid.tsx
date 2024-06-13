@@ -13,7 +13,7 @@ export function Skillsgrid(): JSX.Element {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2
-              className="text-3xl font-bold tracking-tighter sm:text-5xl "
+              className="text-3xl font-bold tracking-tighter sm:text-5xl dark:text-white"
             >
               My Development Expertise
             </h2>
@@ -29,7 +29,7 @@ export function Skillsgrid(): JSX.Element {
                 <Codepen className="w-8 h-8 text-gray-900 dark:text-gray-50" />
               </div>
               <div className="text-center">
-                <h3 className="text-lg font-semibold">React.js</h3>
+                <h3 className="text-lg font-semibold dark:text-white">React.js</h3>
                 <p className="text-gray-500 dark:text-gray-400 text-sm">
                   Proficient in building dynamic user interfaces with React&apos;s component-based architecture and powerful state management.
                 </p>
@@ -42,7 +42,7 @@ export function Skillsgrid(): JSX.Element {
                 <Wind className="w-8 h-8 text-gray-900 dark:text-gray-50" />
               </div>
               <div className="text-center">
-                <h3 className="text-lg font-semibold">Tailwind CSS</h3>
+                <h3 className="text-lg font-semibold dark:text-white">Tailwind CSS</h3>
                 <p className="text-gray-500 dark:text-gray-400 text-sm">
                   Adept at creating visually stunning and responsive designs using the utility-first approach of Tailwind CSS.
                 </p>
@@ -55,7 +55,7 @@ export function Skillsgrid(): JSX.Element {
                 <Network className="w-8 h-8 text-gray-900 dark:text-gray-50" />
               </div>
               <div className="text-center">
-                <h3 className="text-lg font-semibold">Node.js</h3>
+                <h3 className="text-lg font-semibold dark:text-white">Node.js</h3>
                 <p className="text-gray-500 dark:text-gray-400 text-sm">
                   Experienced in building scalable and efficient server-side applications using Node.js and its robust ecosystem.
                 </p>
@@ -68,7 +68,7 @@ export function Skillsgrid(): JSX.Element {
                 <Database className="w-8 h-8 text-gray-900 dark:text-gray-50" />
               </div>
               <div className="text-center">
-                <h3 className="text-lg font-semibold">Database Management</h3>
+                <h3 className="text-lg font-semibold dark:text-white">Database Management</h3>
                 <p className="text-gray-500 dark:text-gray-400 text-sm">
                   Adept at designing and implementing efficient database solutions, including SQL and NoSQL databases.
                 </p>
@@ -81,7 +81,7 @@ export function Skillsgrid(): JSX.Element {
                 <GitBranch className="w-8 h-8 text-gray-900 dark:text-gray-50" />
               </div>
               <div className="text-center">
-                <h3 className="text-lg font-semibold">Git and Version Control</h3>
+                <h3 className="text-lg font-semibold dark:text-white">Git and Version Control</h3>
                 <p className="text-gray-500 dark:text-gray-400 text-sm">
                   Proficient in using Git for version control, collaborating with teams, and managing complex development workflows.
                 </p>
@@ -94,7 +94,7 @@ export function Skillsgrid(): JSX.Element {
                 <Cloud className="w-8 h-8 text-gray-900 dark:text-gray-50" />
               </div>
               <div className="text-center">
-                <h3 className="text-lg font-semibold">Cloud Infrastructure</h3>
+                <h3 className="text-lg font-semibold dark:text-white">Cloud Infrastructure</h3>
                 <p className="text-gray-500 dark:text-gray-400 text-sm">
                   Experienced in deploying and managing applications on cloud platforms like AWS, Azure, and Google Cloud.
                 </p>
