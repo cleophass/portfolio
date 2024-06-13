@@ -8,16 +8,11 @@ export function SkillsgridMobile(): JSX.Element {
   });
 
   return (
-    <section className="sm:hidden w-full py-12 md:py-24 lg:py-32 sm:ml-12" >
-      
+    <section className="sm:hidden w-full py-12 md:py-24 lg:py-32 sm:ml-12">
       <div className="sm:container sm:grid gap-6 px-4 md:px-6" ref={ref}>
-        
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2
-              className="text-3xl font-bold tracking-tighter sm:text-5xl "
-              
-            >
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
               My Development Expertise
             </h2>
             <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 pb-8">
@@ -25,7 +20,7 @@ export function SkillsgridMobile(): JSX.Element {
             </p>
           </div>
         </div>
-        <div className={`grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 transition-opacity duration-1500 ${isVisible ? 'opacity-100' : 'opacity-0'}`} >
+        <div className={`grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 transition-opacity duration-1500 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
           <div className="bg-white dark:bg-gray-950 rounded-lg shadow-lg overflow-hidden">
             <div className="p-6 flex flex-col items-center justify-center gap-4">
               <div className="bg-gray-100 dark:bg-gray-800 rounded-full p-3">
@@ -34,7 +29,7 @@ export function SkillsgridMobile(): JSX.Element {
               <div className="text-center">
                 <h3 className="text-lg font-semibold">React.js</h3>
                 <p className="text-gray-500 dark:text-gray-400 text-sm">
-                  Proficient in building dynamic user interfaces with React's component-based architecture and powerful state management.
+                  Proficient in building dynamic user interfaces with React&apos;s component-based architecture and powerful state management.
                 </p>
               </div>
             </div>
@@ -103,8 +98,8 @@ export function SkillsgridMobile(): JSX.Element {
                 </p>
               </div>
             </div>
-            </div>
           </div>
+        </div>
       </div>
     </section>
   );

@@ -14,7 +14,6 @@ export function Skillsgrid(): JSX.Element {
           <div className="space-y-2">
             <h2
               className="text-3xl font-bold tracking-tighter sm:text-5xl "
-              
             >
               My Development Expertise
             </h2>
@@ -32,7 +31,7 @@ export function Skillsgrid(): JSX.Element {
               <div className="text-center">
                 <h3 className="text-lg font-semibold">React.js</h3>
                 <p className="text-gray-500 dark:text-gray-400 text-sm">
-                  Proficient in building dynamic user interfaces with React's component-based architecture and powerful state management.
+                  Proficient in building dynamic user interfaces with React&apos;s component-based architecture and powerful state management.
                 </p>
               </div>
             </div>
@@ -63,7 +62,7 @@ export function Skillsgrid(): JSX.Element {
               </div>
             </div>
           </div>
-          <div className="bg-white dark:bg-gray-950 rounded-lg shadow-lg overflow-hidden"ref={ref}>
+          <div className="bg-white dark:bg-gray-950 rounded-lg shadow-lg overflow-hidden" ref={ref}>
             <div className="p-6 flex flex-col items-center justify-center gap-4">
               <div className="bg-gray-100 dark:bg-gray-800 rounded-full p-3">
                 <Database className="w-8 h-8 text-gray-900 dark:text-gray-50" />
