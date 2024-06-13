@@ -2,14 +2,16 @@ import React from 'react';
 import { Codepen, Wind, Network, Database, GitBranch, Cloud } from 'lucide-react';
 import useIntersectionObserver from '@/hook/useIntersectionObserver';
 
-export function Skillsgrid(): JSX.Element {
+export function SkillsgridMobile(): JSX.Element {
   const [ref, isVisible] = useIntersectionObserver(() => {
     console.log('Component is visible!');
   });
 
   return (
-    <section className="sm:flex hidden w-full py-12 md:py-24 lg:py-32 sm:ml-12">
-      <div className="sm:container sm:grid gap-6 px-4 md:px-6">
+    <section className="sm:hidden w-full py-12 md:py-24 lg:py-32 sm:ml-12" >
+      
+      <div className="sm:container sm:grid gap-6 px-4 md:px-6" ref={ref}>
+        
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2
@@ -23,7 +25,7 @@ export function Skillsgrid(): JSX.Element {
             </p>
           </div>
         </div>
-        <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 transition-opacity duration-1500 ${isVisible ? 'opacity-100' : 'opacity-0'}`} >
+        <div className={`grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 transition-opacity duration-1500 ${isVisible ? 'opacity-100' : 'opacity-0'}`} >
           <div className="bg-white dark:bg-gray-950 rounded-lg shadow-lg overflow-hidden">
             <div className="p-6 flex flex-col items-center justify-center gap-4">
               <div className="bg-gray-100 dark:bg-gray-800 rounded-full p-3">
@@ -63,7 +65,7 @@ export function Skillsgrid(): JSX.Element {
               </div>
             </div>
           </div>
-          <div className="bg-white dark:bg-gray-950 rounded-lg shadow-lg overflow-hidden"ref={ref}>
+          <div className="bg-white dark:bg-gray-950 rounded-lg shadow-lg overflow-hidden">
             <div className="p-6 flex flex-col items-center justify-center gap-4">
               <div className="bg-gray-100 dark:bg-gray-800 rounded-full p-3">
                 <Database className="w-8 h-8 text-gray-900 dark:text-gray-50" />
@@ -101,8 +103,8 @@ export function Skillsgrid(): JSX.Element {
                 </p>
               </div>
             </div>
+            </div>
           </div>
-        </div>
       </div>
     </section>
   );

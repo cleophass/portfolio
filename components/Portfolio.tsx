@@ -21,7 +21,7 @@ export default function Portfolio() {
       <div ref={ref} className="w-full">
         {isTyping && <TypingAnimation text="Portfolio" className="text-6xl" duration={60} />}
       </div>
-      <div className="flex justify-between gap-20">
+      <div className="flex flex-col sm:flex-row justify-between gap-20">
         <Card
           title="Solution 250"
           description="Conception d'une application mobile pour rendre le festival Pete The Monkey toujours plus agréable."
