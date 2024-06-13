@@ -19,7 +19,7 @@ export default function Portfolio() {
   return (
     <div className="flex flex-col items-center justify-center h-full gap-10">
       <div ref={ref} className="w-full">
-        {isTyping && <TypingAnimation text="Portfolio" className="text-6xl" duration={60} />}
+        {isTyping && <TypingAnimation text="Portfolio" className="text-6xl dark:text-white" duration={60} />}
       </div>
       <div className="flex flex-col sm:flex-row justify-between gap-20">
         <Card

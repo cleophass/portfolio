@@ -20,7 +20,7 @@ export default function CertifMobile() {
         <div className="flex flex-col" ref={ref}>
           <CredlyBadge />
           <div className="text-center ">
-            <h2 className="text-2xl font-semibold mb-4">What is this Certification?</h2>
+            <h2 className="text-2xl font-semibold mb-4 dark:text-white">What is this Certification?</h2>
             <p className="text-lg text-gray-700 dark:text-gray-300">
               This certification is a recognition of the skills and knowledge you have acquired. It is awarded by Credly,
               a leading provider of digital credentials. Displaying this badge demonstrates your expertise in a specific area
