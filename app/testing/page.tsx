@@ -4,7 +4,6 @@ import RetroGrid from "@/components/magicui/retro-grid";
 export default function Testing() {
   return (
     <main className="">
-      <RetroGrid/>
           </main>
   );
 }
