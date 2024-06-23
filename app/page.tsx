@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <main className="">
-      <div className="p-6 z-99">
+      <div className="fixed p-6 z-99">
         <ThemeSwitch />
       </div>
       
