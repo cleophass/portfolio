@@ -7,7 +7,7 @@ import RetroGrid from "@/components/magicui/retro-grid";
 import ShimmerButton from "@/components/magicui/shimmer-button";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-
+import RobotCanvas from "./three/Robot";
 export default function Header() {
   const container = useRef<HTMLDivElement>(null);
 
@@ -41,15 +41,8 @@ export default function Header() {
           </div>
         </div>
 
-        <div className="sm:flex hidden w-1/2 relative justify-center items-center h-[500px]">
-          <Image
-            className="relative"
-            src="/profilpicture.jpg"
-            alt="Profile Picture"
-            width={360}
-            height={360}
-            priority
-          />
+        <div className="sm:flex hidden w-1/2 relative justify-center ">
+        <RobotCanvas />
         </div>
       </div>
     </div>
