@@ -7,6 +7,7 @@ import ShimmerButton from "@/components/magicui/shimmer-button";
 
 import RobotCanvas from "./three/Robot";
 import ThemeSwitch from "./ThemeSwitch";
+import { DockDemo } from "./Dock";
 
 export default function Header() {
   const container = useRef<HTMLDivElement>(null);
@@ -32,7 +33,8 @@ export default function Header() {
             />
 
           </div>
-          <div className="py-6  "> linkedin github etc etc</div>
+          <div className="py-6  "><DockDemo />
+          </div>
           <div className="">
             <ShimmerButton
               className="toanimate shadow-2xl button"
