@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Card from "./Card";
+import Card from "./ui/Card";
 import TypingAnimation from "./magicui/typing-animation";
 import useIntersectionObserver from "@/hook/useIntersectionObserver";
 import solution250 from "../public/solution250.jpeg";

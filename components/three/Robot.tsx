@@ -11,8 +11,7 @@ const Robot = () => {
 
   useEffect(() => {
     if (actions) {
-      // Affichez les actions disponibles dans la console pour vérifier le nom correct de l'animation
-      console.log("Available actions: ", actions);
+      
       
       const actionName = 'Experiment'; // Remplacez par le nom de votre animation si différent
       if (actions[actionName]) {
@@ -23,7 +22,7 @@ const Robot = () => {
     }
   }, [actions]);
 
-  return <primitive ref={robotRef} object={scene} scale={[1.5, 1.5, 1.5]} />; // Ajustez l'échelle ici
+  return <primitive ref={robotRef} object={scene} scale={[1, 1, 1]} />; // Ajustez l'échelle ici
 };
 
 const RobotCanvas = () => {
