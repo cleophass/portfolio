@@ -4,7 +4,7 @@ export default function Testing() {
   return (
     <main className="h-[2000px]">
       <div className="h-[600px]">test</div>
-      <div className="h-16"><ProjectsPage /></div>
+      <div className="h-16"></div>
       
       
 

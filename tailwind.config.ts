@@ -23,6 +23,7 @@ const config: Config = {
         "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
         "spin-around": "spin-around calc(var(--speed) * 2) infinite linear",
         slide: "slide var(--speed) ease-in-out infinite alternate",
+        backgroundPositionSpin: "background-position-spin 3000ms infinite alternate",
       },
       keyframes: {
         grid: {
@@ -55,6 +56,10 @@ const config: Config = {
           to: {
             transform: "translate(calc(100cqw - 100%), 0)",
           },
+        },
+        "background-position-spin": {
+          "0%": { backgroundPosition: "top center" },
+          "100%": { backgroundPosition: "bottom center" },
         },
       },
     },

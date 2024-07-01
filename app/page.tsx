@@ -6,8 +6,8 @@ import { MySkills } from "@/components/my-skills";
 import Portfolio from "@/components/Portfolio";
 import Certif from "@/components/Certif";
 import Header from "@/components/Header";
-import ThemeSwitch from "@/components/ThemeSwitch";
 import Projects from "@/components/Projects/Projects";
+import ProjectsPage from "@/components/projectsfolio/projectspage";
 
 export default function Home() {
   return (
@@ -16,9 +16,10 @@ export default function Home() {
       <Header />
 
       <div id="skills">
+      <ProjectsPage />
       
-      <MySkills />
       </div>
+      <MySkills />
       ici les certifs
       <Projects  isDesktop={true} clientHeight={"100vh"} />
       <div className="">
